@@ -37,7 +37,7 @@ Projekt został stworzony przy użyciu PHP po stronie backendu oraz standardowyc
 * **Frontend:**
     * HTML5
     * CSS3 (Flexbox, Grid, RWD)
-    * JavaScript (drobne usprawnienia, walidacja po stronie klienta - *jeśli dodano*)
+    * JavaScript 
 * **Backend:**
     * PHP (wersja 7.x lub nowsza)
 * **Baza Danych:**
