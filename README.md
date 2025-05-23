@@ -78,10 +78,7 @@ Projekt został stworzony przy użyciu PHP po stronie backendu oraz standardowyc
 2.  Zaimportuj plik `schema.sql` do swojej bazy danych MySQL/MariaDB (np. o nazwie `gielda_ksiazek_db`).
 3.  Skonfiguruj połączenie z bazą danych w pliku `config/db.php`, podając swój host, nazwę użytkownika, hasło i nazwę bazy danych.
 4.  Upewnij się, że foldery `public/uploads/avatars/` oraz `public/uploads/book_images/` istnieją i są zapisywalne dla serwera WWW.
-5.  Umieść domyślne obrazki:
-    * `public/uploads/avatars/default_avatar.png`
-    * `public/uploads/book_images/placeholder.png`
-6.  Skieruj swój lokalny serwer WWW (np. Apache w XAMPP) na folder `public/` jako document root lub otwórz projekt w przeglądarce przez `http://localhost/ścieżka_do_projektu/public/`.
+5.  Skieruj swój lokalny serwer WWW (np. Apache w XAMPP) na folder `public/` jako document root lub otwórz projekt w przeglądarce przez `http://localhost/ścieżka_do_projektu/public/`.
 
 
 ---
