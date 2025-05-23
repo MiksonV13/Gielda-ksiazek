@@ -48,29 +48,41 @@ Projekt został stworzony przy użyciu PHP po stronie backendu oraz standardowyc
     * Git
     * GitHub
 
-## Struktura Projektu:
-
-/giełda_ksiazek_php/
-
-|-- config/             # Pliki konfiguracyjne (np. połączenie z DB)
-
-|-- includes/           # Wspólne elementy strony (header, footer)
-
-|-- public/             # Główny folder dostępny publicznie (document root)
-
-|   |-- css/            # Arkusze stylów CSS
-
-|   |-- uploads/        # Folder na pliki przesyłane przez użytkowników
-
-|   |   |-- avatars/
-
-|   |   |-- book_images/
-
-|   |-- *.php           # Skrypty PHP i strony HTML generowane przez PHP
-
-|-- schema.sql          # Schemat bazy danych
-
-|-- README.md           # Ten plik
+## Struktura Projektu
+/gielda_ksiazek_php/
+|-- config/
+|   |-- db.php             # Konfiguracja połączenia z bazą danych
+|
+|-- includes/
+|   |-- header.php         # Nagłówek strony (menu, logo, sesja)
+|   |-- footer.php         # Stopka strony
+|
+|-- public/                # Główny folder dostępny publicznie (document root)
+|   |-- css/
+|   |   |-- style.css      # Główny arkusz stylów
+|   |-- images/
+|   |   |-- logo.png       # Logo strony
+|   |-- uploads/
+|   |   |-- avatars/       # Avatary użytkowników (np. default_avatar.png)
+|   |   |-- book_images/   # Zdjęcia okładek książek (np. placeholder.png)
+|   |-- index.php          # Strona główna
+|   |-- register.php       # Rejestracja
+|   |-- login.php          # Logowanie
+|   |-- logout.php         # Wylogowanie
+|   |-- profile.php        # Widok profilu użytkownika
+|   |-- edit_profile.php   # Edycja profilu użytkownika
+|   |-- books.php          # Lista książek / Wyszukiwarka
+|   |-- book_details.php   # Szczegóły książki
+|   |-- add_book.php       # Formularz dodawania książki
+|   |-- delete_book.php    # Skrypt usuwania książki
+|   |-- messages.php       # Lista wątków wiadomości (skrzynka odbiorcza)
+|   |-- view_thread.php    # Widok pojedynczego wątku wiadomości
+|   |-- send_message.php   # Formularz wysyłania pierwszej wiadomości
+|   |-- api_fetch_google_book.php # Endpoint do komunikacji z Google Books API
+|   |-- api_book_handler.php # (Jeśli zaimplementowano) API do zarządzania książkami
+|
+|-- schema.sql             # Schemat bazy danych
+|-- README.md              # Niniejszy plik dokumentacji
 
 ## Instalacja i Uruchomienie (Lokalnie):
 
@@ -82,3 +94,9 @@ Projekt został stworzony przy użyciu PHP po stronie backendu oraz standardowyc
 
 
 ---
+
+Autorzy:
+Miłosz Musielak 51304
+Jakub Żywiczko 51377
+Eliasz Marcinkowski 51593
+
