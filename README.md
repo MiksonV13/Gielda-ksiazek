@@ -51,16 +51,27 @@ Projekt został stworzony przy użyciu PHP po stronie backendu oraz standardowyc
 ## Struktura Projektu:
 
 /giełda_ksiazek_php/
+
 |-- config/             # Pliki konfiguracyjne (np. połączenie z DB)
+
 |-- includes/           # Wspólne elementy strony (header, footer)
+
 |-- public/             # Główny folder dostępny publicznie (document root)
+
 |   |-- css/            # Arkusze stylów CSS
+
 |   |-- images/         # Statyczne obrazki (np. logo)
+
 |   |-- uploads/        # Folder na pliki przesyłane przez użytkowników
+
 |   |   |-- avatars/
+
 |   |   |-- book_images/
+
 |   |-- *.php           # Skrypty PHP i strony HTML generowane przez PHP
+
 |-- schema.sql          # Schemat bazy danych
+
 |-- README.md           # Ten plik
 
 ## Instalacja i Uruchomienie (Lokalnie):
