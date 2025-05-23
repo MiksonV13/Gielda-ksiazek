@@ -49,6 +49,7 @@ Projekt został stworzony przy użyciu PHP po stronie backendu oraz standardowyc
     * GitHub
 
 ## Struktura Projektu:
+
 /giełda_ksiazek_php/
 |-- config/             # Pliki konfiguracyjne (np. połączenie z DB)
 |-- includes/           # Wspólne elementy strony (header, footer)
