@@ -60,8 +60,6 @@ Projekt został stworzony przy użyciu PHP po stronie backendu oraz standardowyc
 
 |   |-- css/            # Arkusze stylów CSS
 
-|   |-- images/         # Statyczne obrazki (np. logo)
-
 |   |-- uploads/        # Folder na pliki przesyłane przez użytkowników
 
 |   |   |-- avatars/
